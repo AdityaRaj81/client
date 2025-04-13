@@ -19,7 +19,7 @@ function App() {
     }
 
     try {
-      const res = await fetch('https://your-backend-url/api/contact', {
+      const res = await fetch('https://contact-form-backend-81l6.onrender.com', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData)

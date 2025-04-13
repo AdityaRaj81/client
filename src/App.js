@@ -41,7 +41,7 @@ function App() {
         <input name="phone" value={formData.phone} onChange={handleChange} required placeholder="Phone" />
         <input name="email" value={formData.email} onChange={handleChange} required placeholder="Email" />
         <textarea name="message" value={formData.message} onChange={handleChange} placeholder="Message (optional)" />
-        <button type="submit">Submit</button>
+        <button type="submit">Submit OK</button>
       </form>
     </div>
   );

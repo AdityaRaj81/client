@@ -1,3 +1,37 @@
+## 🖥️  **Client (Frontend)**
+
+
+### 💌 Contact Frontend
+
+A clean and responsive React form that lets users reach out easily. Paired with a backend for storing contact messages securely.
+
+## 🚀 Get Started
+
+```bash
+git clone https://github.com/AdityaRaj81/client.git
+cd client
+npm install
+npm run dev
+```
+
+## 🛠️ Configuration
+
+Make sure the API endpoint in `App.js` matches your backend URL:
+```js
+fetch("https://contact-form-backend-xxxx.onrender.com/api/contact", { ... })
+```
+
+## 🌐 Live Preview
+
+[Visit the Live Site](https://contact-form-mern.netlify.app/)
+
+---
+
+## 👨‍💻 Maintained By
+Aditya Raj
+
+
+<!--
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
